@@ -20,8 +20,8 @@ celsiusInput.addEventListener('input', function(){
 
 kelvinInput.addEventListener('input', function(){
     let kelvin = parseFloat(kelvinInput.value),
-    celsius = kelvin - 273.15;
-    fahrenheit = celsius * (9 / 5) + 32,
-    fahrenheitInput.value = fahrenheit;
+    celsius = kelvin - 273.15,
+    fahrenheit = celsius * (9 / 5) + 32;
     celsiusInput.value = celsius;
+    fahrenheitInput.value = fahrenheit;
 });
